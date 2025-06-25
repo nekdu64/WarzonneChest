@@ -1,0 +1,5 @@
+org\warzonechest\ChestRarity.class
+org\warzonechest\WzChestTabCompleter.class
+org\warzonechest\ChestSpawnCommand.class
+org\warzonechest\ChestListener.class
+org\warzonechest\WarzoneChestPlugin.class

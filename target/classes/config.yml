@@ -1,0 +1,41 @@
+﻿coffres:
+  delay: 5
+  horaires:
+    "17:30":
+      - rarete: COMMUN
+        poids: 60
+      - rarete: RARE
+        poids: 30
+      - rarete: MYTHIQUE
+        poids: 10
+    "20:00":
+      - rarete: RARE
+        poids: 50
+      - rarete: MYTHIQUE
+        poids: 30
+      - rarete: LEGENDAIRE
+        poids: 20
+  commun:
+    locations:
+      - event:-489:89:-305
+    rewards:
+      - give %player% diamond 1
+      - give %player% netherite_ingot 1
+  rare:
+    locations:
+      - event:-523:120:102
+    rewards:
+      - give %player% emerald 5
+      - eco give %player% 300
+  mythique:
+    locations:
+      - event:-739:94:-60
+    rewards:
+      - give %player% netherite_ingot 1
+      - eco give %player% 500
+  legendaire:
+    locations:
+      - event:-818:122:-318
+    rewards:
+      - give %player% nether_star 1
+      - eco give %player% 1000

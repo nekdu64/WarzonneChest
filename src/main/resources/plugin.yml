@@ -1,0 +1,19 @@
+﻿name: WarzoneChest
+main: org.warzonechest.WarzoneChestPlugin
+version: 1.1
+api-version: 1.21
+depend: [SimpleEventManager]
+
+commands:
+  WzChest:
+    description: Commandes pour lancer les coffres en WZ
+    usage: /WzChest reload / spawn
+
+permissions:
+  WzChest.spawn:
+    description: Autorise le spawn manuel des coffres
+    default: op
+  Wzchest.reload:
+    description: Autorise à recharger la configuration
+    default: op
+
